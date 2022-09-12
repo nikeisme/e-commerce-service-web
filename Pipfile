@@ -9,6 +9,7 @@ markdown = "*"
 django-filter = "*"
 django = "*"
 pygments = "*"
+pillow = "*"
 
 [dev-packages]
 
