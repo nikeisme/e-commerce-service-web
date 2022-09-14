@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.openid',
     "users",
+    "products",
 ]
 
 MIDDLEWARE = [
