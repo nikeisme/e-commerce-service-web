@@ -28,15 +28,21 @@ class UserManager(BaseUserManager):
         user.save()
         return user
 
-    def create_superuser(self, email, password, **extra_fields):
+    def create_superuser(self, username, password,email,is_staff ,**extra_fields):
 
-        extra_fields.setdefault("is_staff", True)
-        extra_fields.setdefault("is_superuser", True)
-        if extra_fields.get("is_staff") is not True:
-            raise ValueError(_("Superuser must have is_staff=True."))
-        if extra_fields.get("is_superuser") is not True:
-            raise ValueError(_("Superuser must have is_superuser=True."))
-        return self.create_user(email, password, **extra_fields)
+        user = self.create_user(
+            username=username,
+            email=email,
+            password=password,
+            is_staff=is_staff,
+        )
+
+        user.is_staff = True
+        user.is_superuser = True
+
+        user.save(using=self._db)
+        return user
+
 
 
 class User(AbstractUser, PermissionsMixin, TimeStampedModel):
@@ -53,9 +59,8 @@ class User(AbstractUser, PermissionsMixin, TimeStampedModel):
     is_staff = models.BooleanField(_('판매자 여부'),default=False)
 
     objects = UserManager()
-    EMAIL_FIELD = "email"
-    USERNAME_FIELD = "email"
-    REQUIRED_FIELDS = []
+    USERNAME_FIELD = "username"
+    REQUIRED_FIELDS = ["email","is_staff"]
 
 
     class Meta:
