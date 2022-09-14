@@ -1,3 +1,13 @@
-from django.shortcuts import render
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import viewsets
 
-# Create your views here.
+# from core.permissions import IsAdminOrReadOnly
+
+from products.models import Product
+from products.serializers import ProductSerializer
+
+
+class ProductView(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
