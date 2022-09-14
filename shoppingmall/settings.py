@@ -28,8 +28,11 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "rest_framework.authtoken",
-    'users',
-    'products',
+    "dj_rest_auth",
+    "dj_rest_auth.registration",
+    "allauth",
+    "allauth.account",
+    "users",
 ]
 
 MIDDLEWARE = [
@@ -62,6 +65,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "shoppingmall.wsgi.application"
 
+
 AUTH_USER_MODEL = 'users.User'
 
 
@@ -90,7 +94,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication'
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     ]
 }
 
@@ -117,4 +123,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+REST_AUTH_REGISTER_SERIALIZERS = {
+    'REGISTER_SERIALIZER': 'users.serializers.CustomRegisterSerializer',
+}
 
+ACCOUNT_ADAPTER = 'users.adapters.CustomAccountAdapter'

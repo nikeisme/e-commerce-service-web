@@ -11,6 +11,9 @@ django = "*"
 pygments = "*"
 pillow = "*"
 django-cors-headers = "*"
+django-rest-auth = "*"
+dj-rest-auth = "*"
+django-allauth = "*"
 
 [dev-packages]
 
