@@ -39,7 +39,7 @@
   
   ![image](https://user-images.githubusercontent.com/99165573/190404182-9667f9a3-c912-424a-9bf6-f1650ac2a9ee.png)
   
-# 5. API 명세서
+# 📝 5. API 명세서
 
 ![image](https://user-images.githubusercontent.com/99165573/190404517-330f836d-b08e-4eda-9fc2-fbd7629f487e.png)
 ![image](https://user-images.githubusercontent.com/99165573/190404648-4d509945-8697-441d-82f9-0b1f1fb404f5.png)
