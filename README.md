@@ -59,7 +59,28 @@
     
     ![image](https://user-images.githubusercontent.com/99165573/190379729-e7451270-c5b6-4132-9f4a-b6688b265882.png)
 
+  ## 주문 관리
   
+    - 이용자는 Address(주소), Recipient(받는사람),User(사용자 이름),Product(구매할 상품) 을 입력
+   
+     ![image](https://user-images.githubusercontent.com/99165573/190393198-8a8a4abd-052d-4db1-8008-872cbf1716c2.png)
+
+    - 관리자는 주문에 대한 수정, 삭제 가능
+    
+    ![image](https://user-images.githubusercontent.com/99165573/190393290-8ccfa1a4-9474-47d2-86df-f2f13d94d72a.png)
+
+  ## 결제 관리
+  
+    - 이용자는 Payments Method(결제 방법)과 Orders(주문) 을 입력
+    
+      ![image](https://user-images.githubusercontent.com/99165573/190393673-0a4dc6aa-47ba-47c9-8422-98c0772cc7c8.png)
+
+    - 관리자는 결제에 대한 수정 삭제 가능
+      
+      ![image](https://user-images.githubusercontent.com/99165573/190393773-3f133bb4-9d82-46c1-8efc-a0ab7934a636.png)
+
+    
+
      
     
 
