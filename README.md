@@ -2,13 +2,13 @@
 - Fruitte 스토어 Backend 데이터베이스 및 API 개발
 
 # 📚 목차
-1.요구사항분석
-2.기술스택
-3.MyChallenge
-4.ERD
-5.API명세서
-6.기능 구현
-7.리팩토링할 때 할 것
+<h3>1.요구사항분석<br>
+<h3>2.기술스택<br>
+<h3>3.MyChallenge<br>
+<h3>4.ERD<br>
+<h3>5.API명세서<br>
+<h3>6.기능 구현<br>
+<h3>7.리팩토링할 때 할 것
 
 # ✏️1. 요구사항 분석
 <details markdown="1">
