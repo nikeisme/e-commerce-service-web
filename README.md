@@ -33,7 +33,7 @@
 # 🔥 3.My Chellenge
 
 -  dj-rest-auth로 회원관리 도전
--  drf authentication permission 적절하게 적용하기 도전
+-  drf authentication permission 적재적소에 적용하기 도전
 
 # 🔖 4.ERD
   
