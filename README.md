@@ -27,6 +27,26 @@
 - 관리자는 모든 권한 부여
 </details>
 
+# 🔋 2. 기술 스택
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">  
+
+# 🔥 3.My Chellenge
+
+-  dj-rest-auth로 회원관리 도전
+-  drf authentication permission 적절하게 적용하기 도전
+
+# 🔖 4.ERD
+  
+  ![image](https://user-images.githubusercontent.com/99165573/190404182-9667f9a3-c912-424a-9bf6-f1650ac2a9ee.png)
+  
+# 5. API 명세서
+
+![image](https://user-images.githubusercontent.com/99165573/190404517-330f836d-b08e-4eda-9fc2-fbd7629f487e.png)
+![image](https://user-images.githubusercontent.com/99165573/190404648-4d509945-8697-441d-82f9-0b1f1fb404f5.png)
+![image](https://user-images.githubusercontent.com/99165573/190404745-d077fa69-1769-4633-ac59-5726bc359963.png)
+![image](https://user-images.githubusercontent.com/99165573/190404817-bf1e3770-82ef-4de5-88d4-80e05c98e1b0.png)
+
+
 # 🚀6. 기능 구현
 
 ## 회원 관리 
