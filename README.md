@@ -48,6 +48,18 @@
   
     ![Logout-–-staff](https://user-images.githubusercontent.com/99165573/190356077-9282970c-7202-4c95-9646-6de324e59616.gif)
 
-   
+## 상품 관리
+
+  - 관리자 즉, is_staff 값이 1(True)인 계정은  상품 등록,조회,수정,삭제 가능
+    
+    ![product-등록-staff](https://user-images.githubusercontent.com/99165573/190378426-8a1c59fd-9384-4975-84ab-146745234b35.gif)
+    ![prodcut-수정-업데이트-staff](https://user-images.githubusercontent.com/99165573/190378571-b4356635-359c-4342-beed-296e4f12f86d.gif)
+
+  - 이용자 즉, is_straff 값이 0(False)인 계정은 상품 목록 조회만 가능 / 등록,수정,삭제는 불가
+    
+    ![image](https://user-images.githubusercontent.com/99165573/190379729-e7451270-c5b6-4132-9f4a-b6688b265882.png)
+
+  
+     
     
 
