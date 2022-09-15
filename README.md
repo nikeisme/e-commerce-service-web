@@ -2,13 +2,13 @@
 - Fruitte 스토어 Backend 데이터베이스 및 API 개발
 
 # 📚 목차
-[1.요구사항 분석](#1-요구사항-분석)<br>
-[2.기술 스택](#이동할-위치)<br>
-[3.My Chellenge](#이동할-위치)<br>
-[4.ERD](#이동할-위치)<br>
-[5.API 명세서](#이동할-위치)<br>
-[6.기능 구현 gif ](#이동할-위치)<br>
-[7.Todo ](#이동할-위치)<br>
+1.요구사항분석
+2.기술스택
+3.MyChallenge
+4.ERD
+5.API명세서
+6.기능 구현
+7.리팩토링할 때 할 것
 
 # ✏️1. 요구사항 분석
 <details markdown="1">
@@ -30,7 +30,7 @@
 # 🔋 2. 기술 스택
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white">  
 
-# 🔥 3.My Chellenge
+# 🔥 3.My Challenge
 
 -  dj-rest-auth로 회원관리 도전
 -  drf authentication permission 적재적소에 적용하기 도전
