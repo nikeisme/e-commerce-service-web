@@ -99,7 +99,11 @@
       
    ![image](https://user-images.githubusercontent.com/99165573/190393773-3f133bb4-9d82-46c1-8efc-a0ab7934a636.png)
 
-    
+# ❤️‍🔥 7. 리팩토링할 때 할 것
+
+- 장바구니 모델 추가
+- 각 테이블 구체적인 컬럼 추가
+- 주문/ 결제에 관한 UPDATE, DELETE 고도화 (ex 주문 취소 시, 주문 정보와 주문자가 동일하지 않으면 오류 응답 처리)
 
      
     
